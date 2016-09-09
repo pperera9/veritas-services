@@ -21,10 +21,10 @@ app.get('/jsonTest', function (req, res) {
         response.writeHead(200, {
           "Content-Type": "application/octet-stream",
           "Content-Disposition" : "attachment; filename=" + file});
-        fs.createReadStream(filePath).pipe(response);
+        fs.createReadStream(filePath).pipe(res);
       } else {
-        response.writeHead(400, {"Content-Type": "text/plain"});
-        response.end("ERROR File does NOT Exists");
+        res.writeHead(400, {"Content-Type": "text/plain"});
+        res.end("ERROR File does NOT Exists");
       }
     });
 });
