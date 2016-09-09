@@ -14,7 +14,7 @@ app.get('/yes', function (req, res) {
 });
 
 app.get('/jsonTest', function (req, res) {
-  var filePath =  "/teachers.json";
+  var filePath =  "teachers.json";
 
   fs.exists(filePath, function(exists){
       if (exists) {     
