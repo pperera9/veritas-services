@@ -1,0 +1,22 @@
+{
+  "name": "veritas-services",
+  "version": "1.0.0",
+  "description": "Services for veritas mobile app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pperera9/veritas-services.git"
+  },
+  "keywords": [
+    "veritas"
+  ],
+  "author": "Pasan Perera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pperera9/veritas-services/issues"
+  },
+  "homepage": "https://github.com/pperera9/veritas-services#readme"
+}
